@@ -1,0 +1,37 @@
+html {
+  font-family: "Noto Serif", serif;
+  background-color: #fff;
+}
+
+header {
+background-color: #70ad55;
+color: #fff;
+  /* padding: 1rem; */
+}
+
+fieldset {
+  border: 0px;
+}
+
+input {
+  border: solid #6e8c62;
+}
+
+button {
+  text-align: center;
+  background-color: #6e8c62;
+  border: 0px;
+}
+
+@media only screen and (min-width: 60em) {
+
+  div {
+    display: block;
+    padding: .5rem;
+  }
+
+  .island {
+    padding: 0;
+  }
+
+}
