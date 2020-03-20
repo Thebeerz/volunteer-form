@@ -1,28 +1,32 @@
 html {
   font-family: "Noto Serif", serif;
-  background-color: #fff;
 }
 
-header {
+header, footer {
 background-color: #70ad55;
 color: #fff;
-  /* padding: 1rem; */
 }
 
 fieldset {
   border: 0px;
 }
 
-input {
+input,
+select,
+textarea,
+.checkbox,
+.radio {
   border: solid #6e8c62;
 }
 
-button {
-  text-align: center;
+.btn {
   background-color: #6e8c62;
   border: 0px;
 }
 
+span {
+  color: #70ad55;
+}
 @media only screen and (min-width: 60em) {
 
   div {
