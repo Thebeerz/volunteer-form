@@ -19,17 +19,18 @@
         <div class="wrapper gutter-1-2">
           <h1 class="push-1-2 bold">Apply to be a tree planter</h1>
           <p class="mega max-length no-auto-margins push-1-2">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+        </div>
       </header>
-      <div class="wrapper push-2">
+      <div class="wrapper push-2 gutter-1-2">
         <form method="POST" action="index.html">
           <fieldset class="pad-t-1-2">
-            <legend class="giga bold gutter-1-2 push-1-2">Personal details</legend>
-            <div class="grid psuh-1-2 pad-1-2 gutter-1-2">
+            <legend class="giga bold push-1-2">Personal details</legend>
+            <div class="grid psuh-1-2 pad-1-2">
 
               <div class="unit xs-1 s-1 m-1 -2 l-1-2 push-1-4">
                 <label class="push-1-4" for="name">Full name</label>
                 <input id="name" required>
-                <p class="micro italic">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+                <p class="nano italic">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
               </div>
 
               <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-2">
@@ -65,26 +66,27 @@
                 <input id="email" type="email" required>
               </div>
               <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-2">
-                <label class="push-1-4" for="tel">Phone number</label><span class="italic not-bold">(optional)</span></label>
+                <label class="push-1-4" for="tel">Phone number<span class="italic not-bold">(optional)</span></label>
                 <input id="tel" type="tel">
               </div>
 
             </div>
           </fieldset>
+        <hr>
         <fieldset>
           <legend class="push giga pad-t bold">Address</legend>
           <div class="grid">
-            <div class="unit xs-1 s-1 m-1-2 l-1 push island-1-2">
+            <div class="unit xs-1 s-1 m-1-2 l-1 push">
               <label for="street">Street address</label>
               <input id="street" required>
             </div>
 
-            <div class="unit xs-1 s-1 m-1-2 l-1 push island-1-2">
+            <div class="unit xs-1 s-1 m-1-2 l-1 push">
               <label for="city">City</label>
               <input id="city" required>
             </div>
 
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 push island-1-2">
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 push">
               <label for="province">Province</label>
               <select id="province">
                 <option value="">Select a province</option>
@@ -104,11 +106,13 @@
               </select>
             </div>
 
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 island-1-2">
+            <div class="unit xs-1 s-1 m-1-2 l-1-2">
               <label for="postal">Postal code</label>
               <input id="postal" required>
             </div>
+          </div>
         </fieldset>
+        <hr>
 
         <fieldset>
           <legend class="push-1-2 giga pad-t bold">What activities are you interested in helping with?</legend>
@@ -214,18 +218,21 @@
           <input class="radio" type="radio" id="aid-no" name="truck">
           <label for="aid-no">No</label>
         </fieldset>
+        <hr>
         <div class="push-2">
           <label class="push giga pad-t bold" for="comments">Please let us know any comments or questions you may have.<span class="italic not-bold">(optional)</span></label>
           <textarea id="comments" rows="8"></textarea>
         </div>
+        <hr>
         <div class="center-text push pad-t">
           <button class="btn mega gutter-2 pad-t-1-2 pad-b-1-2 bold" type="submit">Apply</button>
         </div>
       </form>
       <footer>
         <p class="wrapper island-1-2">© Tree Hugger International Organization</p>
+      </div>
       </footer>
     </div>
-    </section>
+  </section>
 </body>
 </html>

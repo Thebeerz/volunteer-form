@@ -3,12 +3,12 @@ html {
 }
 
 header, footer {
-background-color: #70ad55;
-color: #fff;
+  background-color: #70ad55;
+  color: #fff;
 }
 
 fieldset {
-  border: 0px;
+  border: none;
 }
 
 input,
@@ -16,22 +16,31 @@ select,
 textarea,
 .checkbox,
 .radio {
-  border: solid #6e8c62;
+  border-color: #6e8c62;
+}
+
+input[type="checkbox"]+ label::before,
+input[type="radio"]+ label::before, {
+  border-color: #6e8c62;
 }
 
 .btn {
   background-color: #6e8c62;
-  border: 0px;
+  border: none;
 }
 
 span {
   color: #70ad55;
 }
+
+hr {
+  border-top: 1px solid #70ad55;
+}
+
 @media only screen and (min-width: 60em) {
 
   div {
     display: block;
-    padding: .5rem;
   }
 
   .island {
