@@ -13,9 +13,7 @@ fieldset {
 
 input,
 select,
-textarea,
-.checkbox,
-.radio {
+textarea {
   border-color: #6e8c62;
 }
 
@@ -39,8 +37,9 @@ hr {
 
 @media only screen and (min-width: 60em) {
 
-  div {
+  .unit {
     display: block;
+    padding: 0 .75rem;
   }
 
   .island {
